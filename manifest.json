@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Anti-spoiler: Youtube & Twitch",
+    "version": "1.0",
+    "description": "Hide progress bar, time duration, titles and so on from youtube and twitch videos.",
+    "content_scripts": [
+        {
+            "js": ["scripts/content.js"],
+            "css": ["styles/globals.css"],
+            "matches": ["https://www.youtube.com/*", "https://www.twitch.tv/*"]
+        }
+    ]
+}

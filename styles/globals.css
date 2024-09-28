@@ -1,0 +1,11 @@
+.ytp-title-text > a,
+#above-the-fold #title yt-formatted-string,
+#video-title,
+#thumbnail .ytd-thumbnail-overlay-time-status-renderer,
+.ytp-time-wrapper,
+.ytp-progress-bar,
+.kBMZbI,
+.jHpjIV .jRUNHm,
+.bYKcAo {
+    visibility: hidden;
+}
